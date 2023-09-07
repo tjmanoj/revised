@@ -1,0 +1,63 @@
+.card1 {
+	background-color: white;
+    width: 80vh;
+	height: 100%;
+	border-radius: 14px;
+	box-shadow: 0px 10px 30px hsl(189, 4%, 35%, 0.5);
+	position: relative;
+	top: 50px;
+	font-family: 'Montserrat', sans-serif; 
+}
+
+  
+  .right {
+	flex: 70%;
+  }
+header {
+	/* background-image: url("./images/bg-pattern-card.jpg"); */
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	/* background-size: contain; */
+	text-align: center;
+	border-top-left-radius: 14px;
+	height: 180px;
+	border-bottom-left-radius: 14px;
+}
+
+.imagee img {
+	width: 100px;
+	height: auto;
+	/* border: solid white 4px; */
+	border-radius: 50%;
+	margin-top: 38px;
+	margin-right: -100%;
+}
+.buttonss{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 1%;
+	margin: 0 5%;
+}
+
+.cardss{
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+}
+
+.headerss{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5% ;
+	padding-left: 10%;
+}
+
+.bold-text {
+	font-weight: bold;
+	font-size: 1.1rem;
+	margin-bottom: 2%;
+}
+
+
+
